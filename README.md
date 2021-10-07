@@ -12,6 +12,8 @@ The aim of this project is to track the traffic trend of Wikipedia since 2008 by
 - Term of Use
 Please review the Wikimedia Foundation REST API [terms of use](https://www.mediawiki.org/wiki/Wikimedia_REST_API#Terms_and_conditions) for more information.
 - license:  [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) 
+- Please be careful that data from the Pagecounts API cannot excludes spiders/crawlers , but the Pageview API allows you to filter by agent=user to get organic (user) traffic.
+
 
 ### Data (en-wikipedia_traffic_200712-202109.csv)
 166 rows x 7 columns
